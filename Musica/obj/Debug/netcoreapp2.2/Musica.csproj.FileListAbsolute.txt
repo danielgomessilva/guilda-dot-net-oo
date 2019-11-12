@@ -1,0 +1,11 @@
+C:\projects\guilda\GuildaOO\Musica\bin\Debug\netcoreapp2.2\Musica.deps.json
+C:\projects\guilda\GuildaOO\Musica\bin\Debug\netcoreapp2.2\Musica.runtimeconfig.json
+C:\projects\guilda\GuildaOO\Musica\bin\Debug\netcoreapp2.2\Musica.runtimeconfig.dev.json
+C:\projects\guilda\GuildaOO\Musica\bin\Debug\netcoreapp2.2\Musica.dll
+C:\projects\guilda\GuildaOO\Musica\bin\Debug\netcoreapp2.2\Musica.pdb
+C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.csprojAssemblyReference.cache
+C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.csproj.CoreCompileInputs.cache
+C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.AssemblyInfoInputs.cache
+C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.AssemblyInfo.cs
+C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.dll
+C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.pdb

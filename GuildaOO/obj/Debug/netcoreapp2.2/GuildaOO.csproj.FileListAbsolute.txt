@@ -1,0 +1,11 @@
+C:\projects\guilda\GuildaOO\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.deps.json
+C:\projects\guilda\GuildaOO\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.runtimeconfig.json
+C:\projects\guilda\GuildaOO\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.runtimeconfig.dev.json
+C:\projects\guilda\GuildaOO\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.dll
+C:\projects\guilda\GuildaOO\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.pdb
+C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.csprojAssemblyReference.cache
+C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.csproj.CoreCompileInputs.cache
+C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.AssemblyInfoInputs.cache
+C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.AssemblyInfo.cs
+C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.dll
+C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.pdb
