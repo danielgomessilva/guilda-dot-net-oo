@@ -4,8 +4,10 @@ using System.Text;
 
 namespace Musica.Notas
 {
-    class Mi : INota
+    class Mi : BaseNota<InterpretadorBeepNota>
     {
-        public int Frequencia => 42;
+        public Mi() : base(42,"mi")
+        {
+        }
     }
 }

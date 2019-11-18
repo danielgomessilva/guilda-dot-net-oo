@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Musica
+﻿namespace Musica
 {
     public interface INota
     {
-        int Frequencia { get; }
+        string Nome { get; }
+        void TocarNota(int velocidade, TempoEnum tempo, int oitava);
+        void TocarNota(int velocidade, TempoEnum tempo);
     }
 }

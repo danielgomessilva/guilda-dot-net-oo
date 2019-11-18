@@ -4,8 +4,10 @@ using System.Text;
 
 namespace Musica.Notas
 {
-    class LaSus : INota
+    class LaSus : BaseNota<InterpretadorBeepNota>
     {
-        public int Frequencia => 59;
+        public LaSus() : base(59,"laSus")
+        {
+        }
     }
 }

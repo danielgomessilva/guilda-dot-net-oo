@@ -9,3 +9,14 @@ C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.AssemblyInfoIn
 C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.AssemblyInfo.cs
 C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.dll
 C:\projects\guilda\GuildaOO\Musica\obj\Debug\netcoreapp2.2\Musica.pdb
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\obj\Debug\netcoreapp2.2\Musica.csprojAssemblyReference.cache
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\obj\Debug\netcoreapp2.2\Musica.csproj.CoreCompileInputs.cache
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\obj\Debug\netcoreapp2.2\Musica.AssemblyInfoInputs.cache
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\obj\Debug\netcoreapp2.2\Musica.AssemblyInfo.cs
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\obj\Debug\netcoreapp2.2\Musica.dll
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\obj\Debug\netcoreapp2.2\Musica.pdb
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\bin\Debug\netcoreapp2.2\Musica.deps.json
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\bin\Debug\netcoreapp2.2\Musica.runtimeconfig.json
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\bin\Debug\netcoreapp2.2\Musica.runtimeconfig.dev.json
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\bin\Debug\netcoreapp2.2\Musica.dll
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\Musica\bin\Debug\netcoreapp2.2\Musica.pdb

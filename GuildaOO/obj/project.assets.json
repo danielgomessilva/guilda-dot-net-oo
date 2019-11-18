@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\daniel.gomes\\.nuget\\packages\\": {},
+    "C:\\Users\\rubens.souza\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\guilda\\GuildaOO\\GuildaOO\\GuildaOO.csproj",
+      "projectUniqueName": "C:\\Users\\rubens.souza\\source\\repos\\guilda-dot-net-oo\\GuildaOO\\GuildaOO.csproj",
       "projectName": "GuildaOO",
-      "projectPath": "C:\\projects\\guilda\\GuildaOO\\GuildaOO\\GuildaOO.csproj",
-      "packagesPath": "C:\\Users\\daniel.gomes\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\guilda\\GuildaOO\\GuildaOO\\obj\\",
+      "projectPath": "C:\\Users\\rubens.souza\\source\\repos\\guilda-dot-net-oo\\GuildaOO\\GuildaOO.csproj",
+      "packagesPath": "C:\\Users\\rubens.souza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rubens.souza\\source\\repos\\guilda-dot-net-oo\\GuildaOO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\daniel.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rubens.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -710,9 +710,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://packages.platton.com/": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://esppbr.pkgs.visualstudio.com/_packaging/ESPP-nuget-MASTER/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
