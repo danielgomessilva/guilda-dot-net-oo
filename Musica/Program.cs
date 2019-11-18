@@ -52,7 +52,7 @@ namespace Musica
                 .SetNota("sol", 4, TempoEnum.Minima);
 
 
-            partitura.Play(5);
+            partitura.Play(2);
         }
     }
 }
