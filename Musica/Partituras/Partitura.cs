@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Musica
+namespace Musica.Partituras
 {
     public class Partitura : BasePartitura
     {

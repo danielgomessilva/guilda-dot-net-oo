@@ -1,4 +1,6 @@
-﻿namespace Musica.Notas
+﻿using Musica.Notas.Interpretadores;
+
+namespace Musica.Notas
 {
     class SolSus : BaseNota<InterpretadorBeepNota>
     {

@@ -1,4 +1,7 @@
-﻿namespace Musica
+﻿using Musica.Notas;
+using Musica.Utils;
+
+namespace Musica.NotaPartituras
 {
     public class NotaPartitura : INotaPartitura
     {

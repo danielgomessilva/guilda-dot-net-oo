@@ -1,4 +1,6 @@
-﻿namespace Musica
+﻿using Musica.Utils;
+
+namespace Musica.Notas
 {
     public interface INota
     {

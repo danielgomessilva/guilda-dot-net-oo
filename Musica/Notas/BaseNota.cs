@@ -1,4 +1,7 @@
-﻿namespace Musica
+﻿using Musica.Notas.Interpretadores;
+using Musica.Utils;
+
+namespace Musica.Notas
 {
     public abstract class BaseNota<T> : INota
         where T : IInterpretadorNota, new()

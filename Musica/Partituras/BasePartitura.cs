@@ -1,8 +1,10 @@
-﻿using Musica.Notas;
+﻿using Musica.NotaPartituras;
+using Musica.Notas;
+using Musica.Utils;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Musica
+namespace Musica.Partituras
 {
     public abstract class BasePartitura
     {

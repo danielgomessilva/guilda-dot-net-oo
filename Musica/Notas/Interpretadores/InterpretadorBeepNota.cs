@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Musica
+namespace Musica.Notas.Interpretadores
 {
     public class InterpretadorBeepNota : IInterpretadorNota
     {

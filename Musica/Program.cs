@@ -1,9 +1,9 @@
-﻿using Musica.Notas;
-using System;
+﻿using Musica.Partituras;
+using Musica.Utils;
 
 namespace Musica
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {

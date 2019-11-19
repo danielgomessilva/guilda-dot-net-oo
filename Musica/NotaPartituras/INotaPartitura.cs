@@ -1,6 +1,9 @@
-﻿namespace Musica
+﻿using Musica.Notas;
+using Musica.Utils;
+
+namespace Musica.NotaPartituras
 {
-    interface INotaPartitura
+   internal interface INotaPartitura
     {
         INota Nota { get; set; }
         TempoEnum Tempo { get; set; }

@@ -1,5 +1,5 @@
 ﻿
-namespace Musica
+namespace Musica.Utils
 {
     public enum TempoEnum
     {
