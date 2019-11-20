@@ -7,50 +7,53 @@ namespace Musica
     {
         static void Main(string[] args)
         {
-            var partitura = new Partitura()
-                .SetNota("sol", 4, TempoEnum.Seminima)
-                .SetNota("sol", 4, TempoEnum.Seminima)
-                .SetNota("re", 5, TempoEnum.Seminima)
-                .SetNota("re", 5, TempoEnum.Seminima)
-                .SetNota("mi", 5, TempoEnum.Seminima)
-                .SetNota("mi", 5, TempoEnum.Seminima)
-                .SetNota("re", 5, TempoEnum.Minima)
-                .SetNota("do", 5, TempoEnum.Seminima)
-                .SetNota("do", 5, TempoEnum.Seminima)
-                .SetNota("si", 4, TempoEnum.Seminima)
-                .SetNota("si", 4, TempoEnum.Seminima)
-                .SetNota("la", 4, TempoEnum.Minima)
-                .SetNota("sol", 4, TempoEnum.Minima)
+            TocarPartitura1();
+            TocarPartitura2();
+            TocarPartitura3();
+        }
 
-                .SetNota("re", 5, TempoEnum.Seminima)
-                .SetNota("re", 5, TempoEnum.Seminima)
-                .SetNota("do", 5, TempoEnum.Seminima)
-                .SetNota("do", 5, TempoEnum.Seminima)
-                .SetNota("si", 4, TempoEnum.Seminima)
-                .SetNota("si", 4, TempoEnum.Seminima)
-                .SetNota("la", 4, TempoEnum.Minima)
-                .SetNota("re", 5, TempoEnum.Seminima)
-                .SetNota("re", 5, TempoEnum.Seminima)
-                .SetNota("do", 5, TempoEnum.Seminima)
-                .SetNota("do", 5, TempoEnum.Seminima)
-                .SetNota("si", 4, TempoEnum.Seminima)
-                .SetNota("si", 4, TempoEnum.Seminima)
-                .SetNota("la", 4, TempoEnum.Minima)
+        private static void TocarPartitura1()
+        {
+            var partitura = new Partitura();
 
-                .SetNota("sol", 4, TempoEnum.Seminima)
-                .SetNota("sol", 4, TempoEnum.Seminima)
-                .SetNota("re", 5, TempoEnum.Seminima)
-                .SetNota("re", 5, TempoEnum.Seminima)
-                .SetNota("mi", 5, TempoEnum.Seminima)
-                .SetNota("mi", 5, TempoEnum.Seminima)
-                .SetNota("re", 5, TempoEnum.Minima)
-                .SetNota("do", 5, TempoEnum.Seminima)
-                .SetNota("do", 5, TempoEnum.Seminima)
-                .SetNota("si", 4, TempoEnum.Seminima)
-                .SetNota("si", 4, TempoEnum.Seminima)
-                .SetNota("la", 4, TempoEnum.Minima)
-                .SetNota("sol", 4, TempoEnum.Minima);
+            using (var leitor = new LeitorNotas())
+            {
+                foreach (var nota in leitor.LerNotas())
+                {
+                    partitura.SetNota(nota.Item1, nota.Item2, nota.Item3);
+                }
+            }
 
+            partitura.Play(2);
+        }
+
+        private static void TocarPartitura2()
+        {
+            var partitura = new Partitura();
+
+            using (var leitor = new LeitorNotas())
+            {
+                var nota = leitor.LerNota();
+                partitura.SetNota(nota.Item1, nota.Item2, nota.Item3);
+            }
+
+            partitura.Play(2);
+        }
+
+        private static void TocarPartitura3()
+        {
+            var partitura = new Partitura();
+
+            using (var leitor = new LeitorNotas())
+            {
+                string nota;
+                int oitava;
+                TempoEnum tempo;
+
+                leitor.LerNota(out nota, out oitava, out tempo);
+
+                partitura.SetNota(nota, oitava, tempo);
+            }
 
             partitura.Play(2);
         }
