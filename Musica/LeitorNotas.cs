@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 
 namespace Musica
 {
-    public class LeitorNotas : ILeitorSerialNotas
+    public class LeitorNotas : ILeitorNota
     {   
         public (string nota, int oitava, TempoEnum tempo) LerNota()
         {
@@ -69,16 +69,6 @@ namespace Musica
             return notas;
         }
 
-        (string nota, string oitava, TempoEnum tempo) ILeitorSerialNotas.LerNota()
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Tuple<string, string, TempoEnum>> ILeitorSerialNotas.LerNotas()
-        {
-            throw new NotImplementedException();
-        }
-
         readonly SafeHandle handle = new SafeFileHandle(IntPtr.Zero, true);
         bool disposed = false;
         public void Dispose()
@@ -95,7 +85,7 @@ namespace Musica
             if (disposing)
             {
                 handle.Dispose();
-                Console.WriteLine("Dispose Class Leitor Nota");
+                Console.WriteLine("Dispose Leitor Nota");
             }
 
             disposed = true;

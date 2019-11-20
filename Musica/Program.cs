@@ -1,5 +1,6 @@
 ﻿using Musica.Partituras;
 using Musica.Utils;
+using System;
 
 namespace Musica
 {
@@ -10,6 +11,7 @@ namespace Musica
             TocarPartitura1();
             TocarPartitura2();
             TocarPartitura3();
+            Console.ReadLine();
         }
 
         private static void TocarPartitura1()
@@ -22,6 +24,8 @@ namespace Musica
                 {
                     partitura.SetNota(nota.Item1, nota.Item2, nota.Item3);
                 }
+
+                leitor.Dispose();
             }
 
             partitura.Play(2);
@@ -31,11 +35,13 @@ namespace Musica
         {
             var partitura = new Partitura();
 
-            using (var leitor = new LeitorNotas())
-            {
-                var nota = leitor.LerNota();
-                partitura.SetNota(nota.Item1, nota.Item2, nota.Item3);
-            }
+            var leitor = new LeitorNotas();
+
+            var nota = leitor.LerNota();
+            partitura.SetNota(nota.Item1, nota.Item2, nota.Item3);
+
+            leitor.Dispose();
+
 
             partitura.Play(2);
         }
