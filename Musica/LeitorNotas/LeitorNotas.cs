@@ -4,10 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace Musica
+namespace Musica.LeitorNotas
 {
-    public class LeitorNotas : ILeitorNota
-    {   
+    public class LeitorNota : ILeitorNota
+    {
+        readonly SafeHandle handle = new SafeFileHandle(IntPtr.Zero, true);
+        bool disposed = false;
+
         public (string nota, int oitava, TempoEnum tempo) LerNota()
         {
             return ("sol", 4, TempoEnum.Semibreve);
@@ -69,8 +72,6 @@ namespace Musica
             return notas;
         }
 
-        readonly SafeHandle handle = new SafeFileHandle(IntPtr.Zero, true);
-        bool disposed = false;
         public void Dispose()
         {
             Dispose(true);

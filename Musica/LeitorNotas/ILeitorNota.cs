@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Musica
+namespace Musica.LeitorNotas
 {
     public interface ILeitorNota : IDisposable
     {

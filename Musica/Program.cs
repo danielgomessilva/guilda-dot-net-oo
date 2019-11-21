@@ -1,10 +1,11 @@
-﻿using Musica.Partituras;
+﻿using Musica.LeitorNotas;
+using Musica.Partituras;
 using Musica.Utils;
 using System;
 
 namespace Musica
 {
-    public class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
@@ -18,14 +19,12 @@ namespace Musica
         {
             var partitura = new Partitura();
 
-            using (var leitor = new LeitorNotas())
+            using (var leitor = new LeitorNota())
             {
                 foreach (var nota in leitor.LerNotas())
                 {
                     partitura.SetNota(nota.Item1, nota.Item2, nota.Item3);
                 }
-
-                leitor.Dispose();
             }
 
             partitura.Play(2);
@@ -35,7 +34,7 @@ namespace Musica
         {
             var partitura = new Partitura();
 
-            var leitor = new LeitorNotas();
+            var leitor = new LeitorNota();
 
             var nota = leitor.LerNota();
             partitura.SetNota(nota.Item1, nota.Item2, nota.Item3);
@@ -50,7 +49,7 @@ namespace Musica
         {
             var partitura = new Partitura();
 
-            using (var leitor = new LeitorNotas())
+            using (var leitor = new LeitorNota())
             {
                 string nota;
                 int oitava;
