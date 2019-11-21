@@ -37,7 +37,7 @@ namespace Musica
             var leitor = new LeitorNota();
 
             var nota = leitor.LerNota();
-            partitura.SetNota(nota.Item1, nota.Item2, nota.Item3);
+            partitura.SetNota(nota.nota, nota.oitava, nota.tempo);
 
             leitor.Dispose();
 
@@ -51,11 +51,7 @@ namespace Musica
 
             using (var leitor = new LeitorNota())
             {
-                string nota;
-                int oitava;
-                TempoEnum tempo;
-
-                leitor.LerNota(out nota, out oitava, out tempo);
+                leitor.LerNota(out string nota, out int oitava, out TempoEnum tempo);
 
                 partitura.SetNota(nota, oitava, tempo);
             }
