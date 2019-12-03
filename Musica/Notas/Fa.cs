@@ -4,7 +4,7 @@ namespace Musica.Notas
 {
     class Fa : BaseNota<InterpretadorBeepNota>
     {
-        public Fa() : base(44,"fa")
+        internal Fa() : base(44,"fa")
         {
         }
     }

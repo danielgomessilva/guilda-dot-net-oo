@@ -3,9 +3,9 @@
 
 namespace Musica.Notas
 {
-    public class Do : BaseNota<InterpretadorBeepNota>
+    internal sealed class Do : BaseNota<InterpretadorBeepNota>
     {
-        public Do() : base(33,"do")
+        internal Do() : base(33,"do")
         {
 
         }

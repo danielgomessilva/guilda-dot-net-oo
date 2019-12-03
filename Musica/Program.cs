@@ -9,13 +9,12 @@ namespace Musica
     {
         static void Main(string[] args)
         {
-            //TocarPartitura1();
-            //TocarPartitura2();
-            //TocarPartitura3();
+            TocarMusica1();
+            TocarMusica2();
+            TocarMusica3();
             Console.ReadLine();
         }
-
-        private static void TocarPartitura1()
+        private static void TocarMusica1()
         {
             var partitura = new Partitura();
 
@@ -30,7 +29,21 @@ namespace Musica
             partitura.Play(2);
         }
 
-        private static void TocarPartitura2()
+        private static void TocarMusica2()
+        {
+            var partitura = new Partitura();
+
+            using (var leitor = new LeitorNota())
+            {
+                leitor.LerNota(out string nota, out int oitava, out TempoEnum tempo);
+
+                partitura.SetNota(nota, oitava, tempo);
+            }
+
+            partitura.Play(2);
+        }
+
+        private static void TocarMusica3()
         {
             var partitura = new Partitura();
 
@@ -41,20 +54,6 @@ namespace Musica
 
             leitor.Dispose();
 
-
-            partitura.Play(2);
-        }
-
-        private static void TocarPartitura3()
-        {
-            var partitura = new Partitura();
-
-            using (var leitor = new LeitorNota())
-            {
-                leitor.LerNota(out string nota, out int oitava, out TempoEnum tempo);
-
-                partitura.SetNota(nota, oitava, tempo);
-            }
 
             partitura.Play(2);
         }

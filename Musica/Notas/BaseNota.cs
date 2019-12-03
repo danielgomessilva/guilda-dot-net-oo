@@ -10,6 +10,7 @@ namespace Musica.Notas
         private readonly T _interpretador;
         public string Nome { get; }
 
+        
         protected BaseNota(int frequencia, string nome)
         {
             _interpretador = new T();

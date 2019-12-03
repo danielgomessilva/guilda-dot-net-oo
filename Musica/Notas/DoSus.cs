@@ -2,9 +2,9 @@
 
 namespace Musica.Notas
 {
-    class DoSus :  BaseNota<InterpretadorBeepNota>
+    sealed class DoSus :  BaseNota<InterpretadorBeepNota>
     {
-        public DoSus() : base(35,"doSus")
+        internal DoSus() : base(35,"doSus")
         {
         }
     }

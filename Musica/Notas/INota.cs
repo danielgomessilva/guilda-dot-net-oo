@@ -2,7 +2,7 @@
 
 namespace Musica.Notas
 {
-    public interface INota
+    internal interface INota
     {
         string Nome { get; }
         void TocarNota(int velocidade, TempoEnum tempo, int oitava);

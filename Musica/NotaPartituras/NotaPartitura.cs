@@ -3,7 +3,7 @@ using Musica.Utils;
 
 namespace Musica.NotaPartituras
 {
-    public class NotaPartitura : INotaPartitura
+    internal class NotaPartitura : INotaPartitura
     {
         public TempoEnum Tempo { get; set; }
         public int Oitava { get; set; }
