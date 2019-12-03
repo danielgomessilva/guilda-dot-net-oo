@@ -9,7 +9,7 @@ namespace Musica
     {
         static void Main(string[] args)
         {
-            TocarPartitura1();
+            //TocarPartitura1();
             //TocarPartitura2();
             //TocarPartitura3();
             Console.ReadLine();
