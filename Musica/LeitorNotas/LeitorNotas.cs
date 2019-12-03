@@ -126,5 +126,11 @@ namespace Musica.LeitorNotas
 
             disposed = true;
         }
+
+        ~LeitorNota()
+        {
+            Dispose(false);
+            Console.WriteLine("Destructor Leitor Nota");
+        }
     }
 }

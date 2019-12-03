@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Musica.Utils;
+using System;
 
 namespace Musica.Partituras
 {
@@ -11,9 +12,9 @@ namespace Musica.Partituras
 
         public override void Play(int velocidade)
         {
-            Console.WriteLine("tocando musica");
+            Console.WriteLine(Constants.TocandoMusica);
             base.Play(velocidade);
-            Console.WriteLine("fim da musica");
+            Console.WriteLine(Constants.FimDaMusica);
         }
     }
 }

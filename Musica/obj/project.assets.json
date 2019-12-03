@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rubens.souza\\.nuget\\packages\\": {},
+    "C:\\Users\\lorenzo.pincinato\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rubens.souza\\source\\repos\\guilda-dot-net-oo\\Musica\\Musica.csproj",
+      "projectUniqueName": "C:\\Users\\lorenzo.pincinato\\Projects\\Personal\\guilda-dot-net-oo\\Musica\\Musica.csproj",
       "projectName": "Musica",
-      "projectPath": "C:\\Users\\rubens.souza\\source\\repos\\guilda-dot-net-oo\\Musica\\Musica.csproj",
-      "packagesPath": "C:\\Users\\rubens.souza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rubens.souza\\source\\repos\\guilda-dot-net-oo\\Musica\\obj\\",
+      "projectPath": "C:\\Users\\lorenzo.pincinato\\Projects\\Personal\\guilda-dot-net-oo\\Musica\\Musica.csproj",
+      "packagesPath": "C:\\Users\\lorenzo.pincinato\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lorenzo.pincinato\\Projects\\Personal\\guilda-dot-net-oo\\Musica\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rubens.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lorenzo.pincinato\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
