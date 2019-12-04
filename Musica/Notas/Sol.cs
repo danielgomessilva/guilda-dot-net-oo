@@ -1,11 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+using Musica.Notas.Interpretadores;
 
 namespace Musica.Notas
 {
-    class Sol : INota
+    class Sol : BaseNota<InterpretadorBeepNota>
     {
-        public int Frequencia => 49;
+        public Sol() : base(49,"sol")
+        {
+        }
     }
 }

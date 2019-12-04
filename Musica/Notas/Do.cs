@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Musica.Notas.Interpretadores;
+using System;
 
 namespace Musica.Notas
 {
-    class Do : INota
+    internal sealed class Do : BaseNota<InterpretadorBeepNota>
     {
-        public int Frequencia => 33;
+        internal Do() : base(33,"do")
+        {
+        }
     }
 }

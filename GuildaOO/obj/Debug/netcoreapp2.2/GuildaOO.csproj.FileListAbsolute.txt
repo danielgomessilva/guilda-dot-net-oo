@@ -9,3 +9,14 @@ C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.AssemblyIn
 C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.AssemblyInfo.cs
 C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.dll
 C:\projects\guilda\GuildaOO\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.pdb
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.deps.json
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.runtimeconfig.json
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.runtimeconfig.dev.json
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.dll
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\bin\Debug\netcoreapp2.2\GuildaOO.pdb
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.csprojAssemblyReference.cache
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.csproj.CoreCompileInputs.cache
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.AssemblyInfoInputs.cache
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.AssemblyInfo.cs
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.dll
+C:\Users\rubens.souza\source\repos\guilda-dot-net-oo\GuildaOO\obj\Debug\netcoreapp2.2\GuildaOO.pdb
