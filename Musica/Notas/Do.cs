@@ -1,5 +1,5 @@
 ﻿using Musica.Notas.Interpretadores;
-
+using System;
 
 namespace Musica.Notas
 {
@@ -7,7 +7,6 @@ namespace Musica.Notas
     {
         internal Do() : base(33,"do")
         {
-
         }
     }
 }

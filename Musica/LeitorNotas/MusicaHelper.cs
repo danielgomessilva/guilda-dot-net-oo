@@ -2,13 +2,15 @@
 using System;
 using System.Collections.Generic;
 
-namespace Musica.LeitorNotas
+namespace Musica
 {
-    internal static class MusicaHelper
+    namespace LeitorNotas
     {
-        internal static List<Tuple<string, int, TempoEnum>> GetDarthVaderMusica()
+        internal static class MusicaHelper
         {
-           
+            internal static List<Tuple<string, int, TempoEnum>> GetDarthVaderMusica()
+            {
+
                 var notas = new List<Tuple<string, int, TempoEnum>>
             {
                 new Tuple<string, int, TempoEnum>("la", 4, TempoEnum.Seminima),
@@ -32,12 +34,12 @@ namespace Musica.LeitorNotas
             };
 
                 return notas;
-            
-        }
 
-        internal static void AddBrilhaBrilhaEstrelinhaMusica(this List<Tuple<string, int, TempoEnum>> notas)
-        {
-            var notasMusica = new List<Tuple<string, int, TempoEnum>>
+            }
+
+            internal static void AddBrilhaBrilhaEstrelinhaMusica(this List<Tuple<string, int, TempoEnum>> notas)
+            {
+                var notasMusica = new List<Tuple<string, int, TempoEnum>>
             {
                 Tuple.Create("sol", 4, TempoEnum.Seminima),
                 Tuple.Create("sol", 4, TempoEnum.Seminima),
@@ -83,7 +85,8 @@ namespace Musica.LeitorNotas
                 Tuple.Create("sol", 4, TempoEnum.Minima)
             };
 
-            notas.AddRange(notasMusica);
+                notas.AddRange(notasMusica);
+            }
         }
     }
 }

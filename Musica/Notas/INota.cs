@@ -4,7 +4,7 @@ namespace Musica.Notas
 {
     internal interface INota
     {
-        string Nome { get; }
+        string GetNome();
         void TocarNota(int velocidade, TempoEnum tempo, int oitava);
         void TocarNota(int velocidade, TempoEnum tempo);
     }

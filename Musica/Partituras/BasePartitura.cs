@@ -1,6 +1,7 @@
 ﻿using Musica.NotaPartituras;
 using Musica.Notas;
 using Musica.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -33,19 +34,34 @@ namespace Musica.Partituras
 
         public virtual BasePartitura SetNota(string nota, int oitava, TempoEnum tempo)
         {
-            var notaObj = _notas.FirstOrDefault(x => x.Nome == nota);
+            var notaObj = _notas.FirstOrDefault(x => x.GetNome() == nota);
             var notaPartitura = new NotaPartitura() { Nota = notaObj, Oitava = oitava, Tempo = tempo };
             _notasPartituras.Add(notaPartitura);
 
             return this;
         }
 
-        public virtual void Play(int velocidade)
+        public virtual void Tocar(int velocidade)
         {
             _notasPartituras.ForEach(x =>
             {
                 x.TocarNotaPartitura(velocidade);
             });
+        }
+
+        internal class Partitura : BasePartitura
+        {
+            internal Partitura()
+                : base()
+            {
+            }
+
+            public override void Tocar(int velocidade)
+            {
+                Console.WriteLine(Constants.TocandoMusica);
+                base.Tocar(velocidade);
+                Console.WriteLine(Constants.FimDaMusica);
+            }
         }
     }
 }

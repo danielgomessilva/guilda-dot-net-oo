@@ -1,5 +1,6 @@
 ﻿using Musica.Notas.Interpretadores;
 using Musica.Utils;
+using System;
 
 namespace Musica.Notas
 {
@@ -8,14 +9,27 @@ namespace Musica.Notas
     {
         private readonly int _frequencia;
         private readonly T _interpretador;
-        public string Nome { get; }
+        private string _nome;
 
-        
+        public string GetNome()
+        { return _nome; }
+        public void SetNome(string value)
+        { _nome = value; }
+
+        public string Nome => _nome;
+
         protected BaseNota(int frequencia, string nome)
         {
             _interpretador = new T();
             _frequencia = frequencia;
-            Nome = nome;
+            _nome = nome;
+
+            Console.WriteLine(this[0]);
+        }
+
+        private char this[int i]
+        {
+            get { return _nome[i]; }
         }
 
         public void TocarNota(int velocidade, TempoEnum tempo, int oitava)

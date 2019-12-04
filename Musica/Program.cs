@@ -9,14 +9,38 @@ namespace Musica
     {
         static void Main(string[] args)
         {
-            TocarMusica1();
-            TocarMusica2();
-            TocarMusica3();
+            TocarMusica();
+            TocarMusica(tempoMusica: 2, musica: 2);
+            TocarMusica(musica: 3);
             Console.ReadLine();
         }
-        private static void TocarMusica1()
+
+        private static void TocarMusica(int musica = 1, int tempoMusica = 2)
         {
-            var partitura = new Partitura();
+            switch (musica)
+            {
+
+                case 1:
+                    TocarMusica1(tempoMusica);
+                    break;
+
+                case 2:
+                    TocarMusica2(tempoMusica);
+                    break;
+
+                case 3:
+                    TocarMusica3(tempoMusica);
+                    break;
+
+                default:
+                    break;
+            }
+
+        }
+        private static void TocarMusica1(int tempoMusica = 2)
+        {
+
+            var partitura = new BasePartitura.Partitura();
 
             using (var leitor = new LeitorNota())
             {
@@ -26,12 +50,12 @@ namespace Musica
                 }
             }
 
-            partitura.Play(2);
+            partitura.Tocar(tempoMusica);
         }
 
-        private static void TocarMusica2()
+        private static void TocarMusica2(int tempoMusica = 2)
         {
-            var partitura = new Partitura();
+            var partitura = new BasePartitura.Partitura();
 
             using (var leitor = new LeitorNota())
             {
@@ -40,12 +64,12 @@ namespace Musica
                 partitura.SetNota(nota, oitava, tempo);
             }
 
-            partitura.Play(2);
+            partitura.Tocar(tempoMusica);
         }
 
-        private static void TocarMusica3()
+        private static void TocarMusica3(int tempoMusica = 2)
         {
-            var partitura = new Partitura();
+            var partitura = new BasePartitura.Partitura();
 
             var leitor = new LeitorNota();
 
@@ -55,7 +79,7 @@ namespace Musica
             leitor.Dispose();
 
 
-            partitura.Play(2);
+            partitura.Tocar(tempoMusica);
         }
     }
 }

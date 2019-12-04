@@ -10,6 +10,7 @@ namespace Musica.LeitorNotas
 
         void LerNota(out string nota, out int oitava, out TempoEnum tempo);
 
+
         List<Tuple<string, int, TempoEnum>> LerNotas();
     }
 }
